@@ -2,21 +2,6 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-/**
- * PROG5121 - Programming 1A - Part 1
- * Registration and Login Feature
- * 
- * This application allows users to register with username, password, and cellphone number,
- * then login using their credentials.
- * 
- * Regular Expression Reference:
- * Phone number regex pattern: ^\\+27[6-8][0-9]{8}$
- * Source: Adapted from South African mobile number standards
- * 
- * @author Student Name
- * @version 1.0
- * @date 2026
- */
 
 // ── Login class with all required methods ─────────────────────────────────────
 class Login {
@@ -29,9 +14,6 @@ class Login {
     /**
      * Method 1: checkUserName()
      * Ensures that any username contains an underscore (_) and is no more than 5 characters long.
-     * 
-     * @param username The username to validate
-     * @return true if username meets criteria, false otherwise
      */
     public boolean checkUserName(String username) {
         if (username == null || username.isEmpty()) {
@@ -47,9 +29,6 @@ class Login {
      * - Contain a capital letter
      * - Contain a number
      * - Contain a special character
-     * 
-     * @param password The password to validate
-     * @return true if password meets all criteria, false otherwise
      */
     public boolean checkPasswordComplexity(String password) {
         if (password == null || password.isEmpty()) {
@@ -65,8 +44,7 @@ class Login {
      * Format: +27 followed by 9 digits (total 12 characters including +)
      * Mobile prefixes: 6, 7, or 8
      * 
-     * @param cellNumber The cell phone number to validate
-     * @return true if cell number format is correct, false otherwise
+    
      */
     public boolean checkCellPhoneNumber(String cellNumber) {
         if (cellNumber == null || cellNumber.isEmpty()) {
@@ -79,11 +57,6 @@ class Login {
     /**
      * Method 4: registerUser()
      * Returns the necessary registration messaging
-     * 
-     * @param username The username to check
-     * @param password The password to check
-     * @param cellNumber The cell number to check
-     * @return Registration status message
      */
     public String registerUser(String username, String password, String cellNumber) {
         // Check username only
@@ -116,10 +89,7 @@ class Login {
     /**
      * Method 5: loginUser()
      * Verifies that the login details entered match stored credentials
-     * 
-     * @param enteredUsername The username entered during login
-     * @param enteredPassword The password entered during login
-     * @return true if credentials match, false otherwise
+    
      */
     public boolean loginUser(String enteredUsername, String enteredPassword) {
         if (enteredUsername == null || enteredPassword == null) {
@@ -134,11 +104,6 @@ class Login {
     /**
      * Method 6: returnLoginStatus()
      * Returns the necessary messaging for login success or failure
-     * 
-     * @param isSuccess Whether login was successful
-     * @param firstName User's first name (for success message)
-     * @param lastName User's last name (for success message)
-     * @return Login status message
      */
     public String returnLoginStatus(boolean isSuccess, String firstName, String lastName) {
         if (isSuccess) {
