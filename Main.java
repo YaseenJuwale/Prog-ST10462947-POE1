@@ -138,15 +138,15 @@ class Login {
 
 // ── Message Class for Part 2 ─────────────────────────────────────────────────────
 class Message {
-    private String messageID;
-    private int numMessagesSent;
-    private String recipient;
-    private String messageText;
-    private String messageHash;
+    private final String messageID;
+    private final int numMessagesSent;
+    private final String recipient;
+    private final String messageText;
+    private final String messageHash;
     private String messageStatus;
     
     private static int totalMessagesSent = 0;
-    private static List<Message> allMessages = new ArrayList<>();
+    private static final List<Message> allMessages = new ArrayList<>();
     
     // Constructor
     public Message(int messageNumber, String recipient, String messageText) {
@@ -157,7 +157,7 @@ class Message {
         this.messageHash = generateMessageHash();
         this.messageStatus = "Created";
     }
-    
+
     // Generates random 10-digit Message ID
     private String generateMessageID() {
         Random rand = new Random();
