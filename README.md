@@ -21,13 +21,16 @@ JSON file storage, and automated message ID generation are all elements of the s
 Management of Messages:
 
 -Create 10-digit unique message IDs at random.
+
 -Make message hashes using the syntax XX:X:FIRSTLAST.
+
 -Verify the message's maximum length of 250 characters.
+
 -Verify the recipient's cell phone number (+27 format).
 
 **User Choices:**
 -Send Message: Sends and saves the message right away.
--Disregard Message: Removes and cancels the message
+-Disregard Message: Removes and cancels the message.
 -Store Message: Saves a message to a JSON file so it can be sent later.
 
 **Automated Examination:**
