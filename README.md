@@ -11,3 +11,32 @@ please try again."
 **Link**:https://rb.gy/vwf3ub
 
 **Link**:https://github.com/YaseenJuwale/Prog-ST10462947-POE1
+
+**PART 2**
+**Overview**
+By enabling authenticated users to send, store, or ignore messages, the QuickChat Messaging System expands the login application. Message hashing, 
+JSON file storage, and automated message ID generation are all elements of the system.
+
+**Important Features**
+Management of Messages:
+
+-Create 10-digit unique message IDs at random.
+-Make message hashes using the syntax XX:X:FIRSTLAST.
+-Verify the message's maximum length of 250 characters.
+-Verify the recipient's cell phone number (+27 format).
+
+**User Choices:**
+-Send Message: Sends and saves the message right away.
+-Disregard Message: Removes and cancels the message
+-Store Message: Saves a message to a JSON file so it can be sent later.
+
+**Automated Examination:**
+-Six automated unit tests that cover every aspect of message functionality
+-Tests are automatically launched when an application is launched.
+-100% of test cases are passed.
+
+**Technical Execution**
+-For message entry loop (user-specified message count)
+-Using string manipulation to create hashes
+-Validating phone numbers by pattern matching
+-interface that is menu-driven and loops until it is quit
