@@ -30,16 +30,24 @@ Management of Messages:
 
 **User Choices:**
 -Send Message: Sends and saves the message right away.
+
 -Disregard Message: Removes and cancels the message.
+
 -Store Message: Saves a message to a JSON file so it can be sent later.
 
 **Automated Examination:**
--Six automated unit tests that cover every aspect of message functionality
+-Six automated unit tests that cover every aspect of message functionality.
+
 -Tests are automatically launched when an application is launched.
+
 -100% of test cases are passed.
 
 **Technical Execution**
--For message entry loop (user-specified message count)
--Using string manipulation to create hashes
--Validating phone numbers by pattern matching
--interface that is menu-driven and loops until it is quit
+-For message entry loop (user-specified message count).
+
+-Using string manipulation to create hashes.
+
+-Validating phone numbers by pattern matching.
+
+-interface that is menu-driven and loops until it is quit.
+Link:https://www.youtube.com/watch?v=oz0Qd5H4Onk
