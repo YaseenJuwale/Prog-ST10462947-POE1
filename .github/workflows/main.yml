@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [ "main", "master" ]
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # <-- Add this line to silence the warning
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -13,15 +16,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
-
       - name: Compile the program
         run: javac Main.java
-
       - name: Run unit tests
         run: java Main
