@@ -1,1 +1,17 @@
 {"messageID":"3720219353","numMessagesSent":1,"recipient":"+27718693002","message":"Hi mike can you join us for dinner?","messageHash":"37:1:HIDINNER","status":"Sent"}
+{"messageID":"2758350587","numMessagesSent":1,"recipient":"+27834557896","message":"Did you get the cake?","messageHash":"27:1:DIDCAKE","status":"Sent","sender":"John"}
+{"messageID":"2572693855","numMessagesSent":2,"recipient":"+27838884567","message":"Where are you? You are late! I have asked you to be on time.","messageHash":"25:2:WHERETIME","status":"Stored","sender":"John"}
+{"messageID":"3806262596","numMessagesSent":4,"recipient":"+27838884567","message":"It is dinner time !","messageHash":"38:4:IT","status":"Sent","sender":"John"}
+{"messageID":"2041480276","numMessagesSent":5,"recipient":"+27838884567","message":"Ok, I am leaving without you.","messageHash":"20:5:OKYOU","status":"Stored","sender":"John"}
+{"messageID":"2730149638","numMessagesSent":1,"recipient":"+27834557896","message":"Did you get the cake ?","messageHash":"27:1:DID","status":"Sent","sender":"Yaseen Juwale"}
+{"messageID":"4394534702","numMessagesSent":2,"recipient":"+27838884567","message":"Where are you?You are late! I have asked you to be on time.","messageHash":"43:2:WHERETIME","status":"Stored","sender":"Yaseen Juwale"}
+{"messageID":"3452092891","numMessagesSent":4,"recipient":"+27838884567","message":"It is dinner time!","messageHash":"34:4:ITTIME","status":"Sent","sender":"Yaseen Juwale"}
+{"messageID":"6819420579","numMessagesSent":5,"recipient":"+27838884567","message":"OK i am leaving without you.","messageHash":"68:5:OKYOU","status":"Stored","sender":"Yaseen Juwale"}
+{"messageID":"5645466814","numMessagesSent":1,"recipient":"+27834557896","message":"Did you get the cake?","messageHash":"56:1:DIDCAKE","status":"Sent","sender":"John"}
+{"messageID":"6420366671","numMessagesSent":2,"recipient":"+27838884567","message":"Where are you? You are late! I have asked you to be on time.","messageHash":"64:2:WHERETIME","status":"Stored","sender":"John"}
+{"messageID":"3772959651","numMessagesSent":4,"recipient":"+27838884567","message":"It is dinner time !","messageHash":"37:4:IT","status":"Sent","sender":"John"}
+{"messageID":"2035097420","numMessagesSent":5,"recipient":"+27838884567","message":"Ok, I am leaving without you.","messageHash":"20:5:OKYOU","status":"Stored","sender":"John"}
+{"messageID":"4000634238","numMessagesSent":1,"recipient":"+27834557896","message":"Did you get the cake?","messageHash":"40:1:DIDCAKE","status":"Sent","sender":"John"}
+{"messageID":"5667091662","numMessagesSent":2,"recipient":"+27838884567","message":"Where are you? You are late! I have asked you to be on time.","messageHash":"56:2:WHERETIME","status":"Stored","sender":"John"}
+{"messageID":"5479517653","numMessagesSent":4,"recipient":"+27838884567","message":"It is dinner time !","messageHash":"54:4:IT","status":"Sent","sender":"John"}
+{"messageID":"1022755040","numMessagesSent":5,"recipient":"+27838884567","message":"Ok, I am leaving without you.","messageHash":"10:5:OKYOU","status":"Stored","sender":"John"}
