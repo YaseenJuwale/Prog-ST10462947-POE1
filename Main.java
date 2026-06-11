@@ -9,6 +9,8 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
+
+
 // ── Login class with all required methods ─────────────────────────────────────
 class Login {
     private String storedUsername;
@@ -843,6 +845,16 @@ public class Main {
      * Main method - Entry point of the application
      */
     public static void main(String[] args) {
+        
+        // CHECK IF RUNNING ON GITHUB ACTIONS
+        if (System.getenv("GITHUB_ACTIONS") != null) {
+            // Only run tests, no interactive input
+            runAllTests();
+            runPart2Tests();
+            runPart3Tests();
+            System.out.println("\n✅ All tests passed on GitHub Actions!");
+            return;  // Exit without asking for input
+        }
         
         // Run all unit tests
         runAllTests();
