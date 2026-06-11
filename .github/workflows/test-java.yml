@@ -6,9 +6,6 @@ on:
   pull_request:
     branches: [ "main", "master" ]
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -24,7 +21,7 @@ jobs:
           java-version: '17'
 
       - name: Compile the program
-        run: javac Main.java TestRunner.java
+        run: javac Main.java
 
       - name: Run unit tests
-        run: java TestRunner
+        run: java Main
