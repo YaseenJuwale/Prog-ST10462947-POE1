@@ -51,3 +51,19 @@ Management of Messages:
 
 -interface that is menu-driven and loops until it is quit.
 Link:https://www.youtube.com/watch?v=oz0Qd5H4Onk
+
+
+**PART 3**
+**Overview**
+-5parallel arrays populated (Sent, Disregarded, Stored from JSON, Hashes, IDs).
+- Display longest stored message with recipient.
+- Search all messages by recipient.
+- Delete message by message hash.
+- Read JSON file into stored messages array (code attributed).
+- Full report display (Hash, Recipient, ID, Message).
+- 6 unit tests created and passing.
+- GitHub Actions workflow (test-java.yml) runs automated tests.
+- Full menu integration (option 4 with submenu a-g).
+- Clean code with comments and attribution.
+
+link:https://www.youtube.com/watch?v=9G_z9iadAW0
