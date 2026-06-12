@@ -28,3 +28,11 @@
 {"messageID":"5245776388","numMessagesSent":2,"recipient":"+27838884567","message":"Where are you? You are late! I have asked you to be on time.","messageHash":"52:2:WHERETIME","status":"Stored","sender":"Yaseen Juwale"}
 {"messageID":"8560477684","numMessagesSent":4,"recipient":"+27838884567","message":"It is dinner time","messageHash":"85:4:ITTIME","status":"Sent","sender":"Yaseen Juwale"}
 {"messageID":"4326915800","numMessagesSent":5,"recipient":"+27838884567","message":"OK i am leaving without you.","messageHash":"43:5:OKYOU","status":"Stored","sender":"Yaseen Juwale"}
+{"messageID":"4012268831","numMessagesSent":1,"recipient":"+27834557896","message":"Did you get the cake?","messageHash":"40:1:DIDCAKE","status":"Sent","sender":"John"}
+{"messageID":"7734122434","numMessagesSent":2,"recipient":"+27838884567","message":"Where are you? You are late! I have asked you to be on time.","messageHash":"77:2:WHERETIME","status":"Stored","sender":"John"}
+{"messageID":"2369052633","numMessagesSent":4,"recipient":"+27838884567","message":"It is dinner time !","messageHash":"23:4:IT","status":"Sent","sender":"John"}
+{"messageID":"2235525614","numMessagesSent":5,"recipient":"+27838884567","message":"Ok, I am leaving without you.","messageHash":"22:5:OKYOU","status":"Stored","sender":"John"}
+{"messageID":"1856899929","numMessagesSent":1,"recipient":"+27834557896","message":"Did you get the cake?","messageHash":"18:1:DIDCAKE","status":"Sent","sender":"John"}
+{"messageID":"9557760664","numMessagesSent":2,"recipient":"+27838884567","message":"Where are you? You are late! I have asked you to be on time.","messageHash":"95:2:WHERETIME","status":"Stored","sender":"John"}
+{"messageID":"4432942931","numMessagesSent":4,"recipient":"+27838884567","message":"It is dinner time !","messageHash":"44:4:IT","status":"Sent","sender":"John"}
+{"messageID":"3135141064","numMessagesSent":5,"recipient":"+27838884567","message":"Ok, I am leaving without you.","messageHash":"31:5:OKYOU","status":"Stored","sender":"John"}
